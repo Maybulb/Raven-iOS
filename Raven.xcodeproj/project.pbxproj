@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03A67C661CBC8193009533AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A67C651CBC8193009533AF /* AppDelegate.swift */; };
+		03A67C681CBC8193009533AF /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A67C671CBC8193009533AF /* FirstViewController.swift */; };
+		03A67C6A1CBC8193009533AF /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A67C691CBC8193009533AF /* SecondViewController.swift */; };
+		03A67C6D1CBC8193009533AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03A67C6B1CBC8193009533AF /* Main.storyboard */; };
+		03A67C6F1CBC8193009533AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03A67C6E1CBC8193009533AF /* Assets.xcassets */; };
+		03A67C721CBC8193009533AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03A67C701CBC8193009533AF /* LaunchScreen.storyboard */; };
+		03A67C7D1CBC8193009533AF /* RavenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A67C7C1CBC8193009533AF /* RavenTests.swift */; };
+		03A67C881CBC8193009533AF /* RavenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A67C871CBC8193009533AF /* RavenUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03A67C791CBC8193009533AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03A67C5A1CBC8192009533AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03A67C611CBC8192009533AF;
+			remoteInfo = Raven;
+		};
+		03A67C841CBC8193009533AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03A67C5A1CBC8192009533AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03A67C611CBC8192009533AF;
+			remoteInfo = Raven;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03A67C621CBC8192009533AF /* Raven.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Raven.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03A67C651CBC8193009533AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		03A67C671CBC8193009533AF /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		03A67C691CBC8193009533AF /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		03A67C6C1CBC8193009533AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		03A67C6E1CBC8193009533AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03A67C711CBC8193009533AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		03A67C731CBC8193009533AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03A67C781CBC8193009533AF /* RavenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RavenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03A67C7C1CBC8193009533AF /* RavenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RavenTests.swift; sourceTree = "<group>"; };
+		03A67C7E1CBC8193009533AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03A67C831CBC8193009533AF /* RavenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RavenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03A67C871CBC8193009533AF /* RavenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RavenUITests.swift; sourceTree = "<group>"; };
+		03A67C891CBC8193009533AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03A67C5F1CBC8192009533AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03A67C751CBC8193009533AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03A67C801CBC8193009533AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03A67C591CBC8192009533AF = {
+			isa = PBXGroup;
+			children = (
+				03A67C641CBC8193009533AF /* Raven */,
+				03A67C7B1CBC8193009533AF /* RavenTests */,
+				03A67C861CBC8193009533AF /* RavenUITests */,
+				03A67C631CBC8192009533AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03A67C631CBC8192009533AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03A67C621CBC8192009533AF /* Raven.app */,
+				03A67C781CBC8193009533AF /* RavenTests.xctest */,
+				03A67C831CBC8193009533AF /* RavenUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03A67C641CBC8193009533AF /* Raven */ = {
+			isa = PBXGroup;
+			children = (
+				03A67C651CBC8193009533AF /* AppDelegate.swift */,
+				03A67C671CBC8193009533AF /* FirstViewController.swift */,
+				03A67C691CBC8193009533AF /* SecondViewController.swift */,
+				03A67C6B1CBC8193009533AF /* Main.storyboard */,
+				03A67C6E1CBC8193009533AF /* Assets.xcassets */,
+				03A67C701CBC8193009533AF /* LaunchScreen.storyboard */,
+				03A67C731CBC8193009533AF /* Info.plist */,
+			);
+			path = Raven;
+			sourceTree = "<group>";
+		};
+		03A67C7B1CBC8193009533AF /* RavenTests */ = {
+			isa = PBXGroup;
+			children = (
+				03A67C7C1CBC8193009533AF /* RavenTests.swift */,
+				03A67C7E1CBC8193009533AF /* Info.plist */,
+			);
+			path = RavenTests;
+			sourceTree = "<group>";
+		};
+		03A67C861CBC8193009533AF /* RavenUITests */ = {
+			isa = PBXGroup;
+			children = (
+				03A67C871CBC8193009533AF /* RavenUITests.swift */,
+				03A67C891CBC8193009533AF /* Info.plist */,
+			);
+			path = RavenUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03A67C611CBC8192009533AF /* Raven */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03A67C8C1CBC8193009533AF /* Build configuration list for PBXNativeTarget "Raven" */;
+			buildPhases = (
+				03A67C5E1CBC8192009533AF /* Sources */,
+				03A67C5F1CBC8192009533AF /* Frameworks */,
+				03A67C601CBC8192009533AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Raven;
+			productName = Raven;
+			productReference = 03A67C621CBC8192009533AF /* Raven.app */;
+			productType = "com.apple.product-type.application";
+		};
+		03A67C771CBC8193009533AF /* RavenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03A67C8F1CBC8193009533AF /* Build configuration list for PBXNativeTarget "RavenTests" */;
+			buildPhases = (
+				03A67C741CBC8193009533AF /* Sources */,
+				03A67C751CBC8193009533AF /* Frameworks */,
+				03A67C761CBC8193009533AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03A67C7A1CBC8193009533AF /* PBXTargetDependency */,
+			);
+			name = RavenTests;
+			productName = RavenTests;
+			productReference = 03A67C781CBC8193009533AF /* RavenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		03A67C821CBC8193009533AF /* RavenUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03A67C921CBC8193009533AF /* Build configuration list for PBXNativeTarget "RavenUITests" */;
+			buildPhases = (
+				03A67C7F1CBC8193009533AF /* Sources */,
+				03A67C801CBC8193009533AF /* Frameworks */,
+				03A67C811CBC8193009533AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03A67C851CBC8193009533AF /* PBXTargetDependency */,
+			);
+			name = RavenUITests;
+			productName = RavenUITests;
+			productReference = 03A67C831CBC8193009533AF /* RavenUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03A67C5A1CBC8192009533AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Bright;
+				TargetAttributes = {
+					03A67C611CBC8192009533AF = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					03A67C771CBC8193009533AF = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 03A67C611CBC8192009533AF;
+					};
+					03A67C821CBC8193009533AF = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 03A67C611CBC8192009533AF;
+					};
+				};
+			};
+			buildConfigurationList = 03A67C5D1CBC8192009533AF /* Build configuration list for PBXProject "Raven" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03A67C591CBC8192009533AF;
+			productRefGroup = 03A67C631CBC8192009533AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03A67C611CBC8192009533AF /* Raven */,
+				03A67C771CBC8193009533AF /* RavenTests */,
+				03A67C821CBC8193009533AF /* RavenUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03A67C601CBC8192009533AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03A67C721CBC8193009533AF /* LaunchScreen.storyboard in Resources */,
+				03A67C6F1CBC8193009533AF /* Assets.xcassets in Resources */,
+				03A67C6D1CBC8193009533AF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03A67C761CBC8193009533AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03A67C811CBC8193009533AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03A67C5E1CBC8192009533AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03A67C6A1CBC8193009533AF /* SecondViewController.swift in Sources */,
+				03A67C661CBC8193009533AF /* AppDelegate.swift in Sources */,
+				03A67C681CBC8193009533AF /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03A67C741CBC8193009533AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03A67C7D1CBC8193009533AF /* RavenTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03A67C7F1CBC8193009533AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03A67C881CBC8193009533AF /* RavenUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03A67C7A1CBC8193009533AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03A67C611CBC8192009533AF /* Raven */;
+			targetProxy = 03A67C791CBC8193009533AF /* PBXContainerItemProxy */;
+		};
+		03A67C851CBC8193009533AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03A67C611CBC8192009533AF /* Raven */;
+			targetProxy = 03A67C841CBC8193009533AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		03A67C6B1CBC8193009533AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03A67C6C1CBC8193009533AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		03A67C701CBC8193009533AF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03A67C711CBC8193009533AF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03A67C8A1CBC8193009533AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		03A67C8B1CBC8193009533AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03A67C8D1CBC8193009533AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Raven/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bright.Raven;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		03A67C8E1CBC8193009533AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Raven/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bright.Raven;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		03A67C901CBC8193009533AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RavenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bright.RavenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Raven.app/Raven";
+			};
+			name = Debug;
+		};
+		03A67C911CBC8193009533AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RavenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bright.RavenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Raven.app/Raven";
+			};
+			name = Release;
+		};
+		03A67C931CBC8193009533AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RavenUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bright.RavenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Raven;
+			};
+			name = Debug;
+		};
+		03A67C941CBC8193009533AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RavenUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bright.RavenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Raven;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03A67C5D1CBC8192009533AF /* Build configuration list for PBXProject "Raven" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03A67C8A1CBC8193009533AF /* Debug */,
+				03A67C8B1CBC8193009533AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03A67C8C1CBC8193009533AF /* Build configuration list for PBXNativeTarget "Raven" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03A67C8D1CBC8193009533AF /* Debug */,
+				03A67C8E1CBC8193009533AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		03A67C8F1CBC8193009533AF /* Build configuration list for PBXNativeTarget "RavenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03A67C901CBC8193009533AF /* Debug */,
+				03A67C911CBC8193009533AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		03A67C921CBC8193009533AF /* Build configuration list for PBXNativeTarget "RavenUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03A67C931CBC8193009533AF /* Debug */,
+				03A67C941CBC8193009533AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03A67C5A1CBC8192009533AF /* Project object */;
+}
