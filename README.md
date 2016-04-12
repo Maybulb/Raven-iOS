@@ -1,6 +1,8 @@
-# Raven
-A minimalistic poetry app for iOS.
+<img align="right" width="30%" style="float:right;padding:20px;" src="http://i.imgur.com/gXa6QRn.jpg">
 
+# Raven
+
+A minimalistic poetry app for iOS.
 > "Only this and nothing more."
 
 ## Development
