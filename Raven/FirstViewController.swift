@@ -7,12 +7,15 @@
 //
 
 import UIKit
+import Chameleon
 
 class FirstViewController: UIViewController {
 
+    @IBOutlet var firstView: UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        firstView.backgroundColor = UIColor.flatNavyBlueColorDark()
     }
 
     override func didReceiveMemoryWarning() {

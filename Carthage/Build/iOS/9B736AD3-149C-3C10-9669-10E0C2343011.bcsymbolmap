@@ -1,0 +1,1430 @@
+BCSymbolMap Version: 1.0
+-[UIColor(ChameleonPrivate) setCount:]
+-[UIColor(ChameleonPrivate) count]
++[UIColor(ChameleonPrivate) colorFromImage:atPoint:]
+-[UIColor(ChameleonPrivate) colorWithMinimumSaturation:]
+-[UIColor(ChameleonPrivate) isDistinct:]
+-[UIColor(ChameleonPrivate) getValueForX:valueForY:valueForZ:alpha:]
+-[UIColor(ChameleonPrivate) getLightness:valueForA:valueForB:alpha:]
+-[UIColor(ChameleonPrivate) arrayOfXYZValuesForR:G:B:A:]
+__56-[UIColor(ChameleonPrivate) arrayOfXYZValuesForR:G:B:A:]_block_invoke
+-[UIColor(ChameleonPrivate) arrayOfLABValuesForX:Y:Z:alpha:]
+__60-[UIColor(ChameleonPrivate) arrayOfLABValuesForX:Y:Z:alpha:]_block_invoke
+OBJC_METH_VAR_NAME_
+OBJC_SELECTOR_REFERENCES_
+OBJC_CLASSLIST_REFERENCES_$_
+OBJC_METH_VAR_NAME_.1
+OBJC_SELECTOR_REFERENCES_.2
+OBJC_METH_VAR_NAME_.3
+OBJC_SELECTOR_REFERENCES_.4
+OBJC_METH_VAR_NAME_.5
+OBJC_SELECTOR_REFERENCES_.6
+OBJC_CLASSLIST_REFERENCES_$_.7
+OBJC_METH_VAR_NAME_.8
+OBJC_SELECTOR_REFERENCES_.9
+OBJC_METH_VAR_NAME_.10
+OBJC_SELECTOR_REFERENCES_.11
+OBJC_METH_VAR_NAME_.12
+OBJC_SELECTOR_REFERENCES_.13
+OBJC_METH_VAR_NAME_.14
+OBJC_SELECTOR_REFERENCES_.15
+OBJC_METH_VAR_NAME_.16
+OBJC_SELECTOR_REFERENCES_.17
+OBJC_METH_VAR_NAME_.18
+OBJC_SELECTOR_REFERENCES_.19
+OBJC_METH_VAR_NAME_.20
+OBJC_SELECTOR_REFERENCES_.21
+OBJC_METH_VAR_NAME_.22
+OBJC_SELECTOR_REFERENCES_.23
+OBJC_METH_VAR_NAME_.24
+OBJC_SELECTOR_REFERENCES_.25
+.str
+__block_descriptor_tmp
+__block_literal_global
+OBJC_METH_VAR_NAME_.26
+OBJC_SELECTOR_REFERENCES_.27
+OBJC_CLASSLIST_REFERENCES_$_.28
+OBJC_METH_VAR_NAME_.29
+OBJC_SELECTOR_REFERENCES_.30
+__block_descriptor_tmp.31
+__block_literal_global.32
+OBJC_CLASS_NAME_
+OBJC_METH_VAR_NAME_.33
+OBJC_METH_VAR_TYPE_
+OBJC_METH_VAR_TYPE_.34
+OBJC_METH_VAR_NAME_.35
+OBJC_METH_VAR_TYPE_.36
+OBJC_METH_VAR_NAME_.37
+OBJC_METH_VAR_TYPE_.38
+OBJC_METH_VAR_NAME_.39
+OBJC_METH_VAR_TYPE_.40
+OBJC_METH_VAR_NAME_.41
+OBJC_METH_VAR_TYPE_.42
+l_OBJC_$_CATEGORY_INSTANCE_METHODS_UIColor_$_ChameleonPrivate
+OBJC_METH_VAR_NAME_.43
+OBJC_METH_VAR_TYPE_.44
+l_OBJC_$_CATEGORY_CLASS_METHODS_UIColor_$_ChameleonPrivate
+OBJC_PROP_NAME_ATTR_
+OBJC_PROP_NAME_ATTR_.45
+l_OBJC_$_PROP_LIST_UIColor_$_ChameleonPrivate
+l_OBJC_$_CATEGORY_UIColor_$_ChameleonPrivate
+OBJC_LABEL_CATEGORY_$
+Apple LLVM version 7.3.0 (clang-703.0.29)
+CGRectMake
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGGeometry.h
+/Users/eb/Desktop/Chameleon
+/Users/eb/Desktop/Chameleon/Pod/Classes/Objective-C/UIColor+ChameleonPrivate.m
+-[UIColor(ChameleonPrivate) arrayOfLABValuesForX:Y:Z:alpha:]
+-[UIColor(ChameleonPrivate) arrayOfXYZValuesForR:G:B:A:]
+-[UIColor(ChameleonPrivate) getLightness:valueForA:valueForB:alpha:]
+-[UIColor(ChameleonPrivate) getValueForX:valueForY:valueForZ:alpha:]
+-[UIColor(ChameleonPrivate) isDistinct:]
+-[UIColor(ChameleonPrivate) colorWithMinimumSaturation:]
++[UIColor(ChameleonPrivate) colorFromImage:atPoint:]
+-[UIColor(ChameleonPrivate) count]
+-[UIColor(ChameleonPrivate) setCount:]
+-[UIButton(Chameleon) setSubstituteFontName:]
+OBJC_METH_VAR_NAME_.7
+l_OBJC_$_CATEGORY_INSTANCE_METHODS_UIButton_$_Chameleon
+l_OBJC_$_CATEGORY_UIButton_$_Chameleon
+-[UIButton(Chameleon) setSubstituteFontName:]
+/Users/eb/Desktop/Chameleon/Pod/Classes/Objective-C/UIButton+Chameleon.m
++[NSArray(Chameleon) arrayOfColorsWithColorScheme:with:flatScheme:]
++[NSArray(Chameleon) arrayOfColorsWithColorScheme:usingColor:withFlatScheme:]
++[NSArray(Chameleon) arrayOfColorsFromImage:withFlatScheme:]
+-[NSArray(Chameleon) findColorsOfImage:imageColors:]
++[NSArray(Chameleon) analogousColorSchemeFromHue:Saturation:Brightness:flat:]
++[NSArray(Chameleon) complementaryColorSchemeFromHue:Saturation:Brightness:flat:]
++[NSArray(Chameleon) triadicColorSchemeFromHue:Saturation:Brightness:flat:]
++[NSArray(Chameleon) add:to:]
++[NSArray(Chameleon) colorWithFlatVersionOf:]
++[NSArray(Chameleon) flatColors]
++[NSArray(Chameleon) totalSumOfDifferencesFroml1:l2:a1:a2:b1:b2:]
++[NSArray(Chameleon) nearestFlatColorForL:A:B:alpha:]
+-[ChameleonCountedColor initWithColor:count:]
+-[ChameleonCountedColor compare:]
+-[ChameleonCountedColor count]
+-[ChameleonCountedColor setCount:]
+-[ChameleonCountedColor color]
+-[ChameleonCountedColor setColor:]
+-[ChameleonCountedColor .cxx_destruct]
+OBJC_SELECTOR_REFERENCES_.8
+OBJC_METH_VAR_NAME_.9
+OBJC_SELECTOR_REFERENCES_.10
+OBJC_CLASSLIST_REFERENCES_$_.11
+OBJC_CLASSLIST_REFERENCES_$_.16
+OBJC_METH_VAR_NAME_.17
+OBJC_SELECTOR_REFERENCES_.18
+OBJC_METH_VAR_NAME_.19
+OBJC_SELECTOR_REFERENCES_.20
+OBJC_METH_VAR_NAME_.21
+OBJC_SELECTOR_REFERENCES_.22
+OBJC_CLASSLIST_REFERENCES_$_.23
+OBJC_METH_VAR_NAME_.28
+OBJC_SELECTOR_REFERENCES_.29
+OBJC_METH_VAR_NAME_.30
+OBJC_SELECTOR_REFERENCES_.31
+OBJC_METH_VAR_NAME_.32
+OBJC_SELECTOR_REFERENCES_.33
+OBJC_METH_VAR_NAME_.34
+OBJC_SELECTOR_REFERENCES_.35
+OBJC_METH_VAR_NAME_.36
+OBJC_SELECTOR_REFERENCES_.37
+OBJC_METH_VAR_NAME_.38
+OBJC_SELECTOR_REFERENCES_.39
+OBJC_CLASSLIST_REFERENCES_$_.40
+OBJC_SELECTOR_REFERENCES_.42
+OBJC_SELECTOR_REFERENCES_.44
+OBJC_METH_VAR_NAME_.45
+OBJC_SELECTOR_REFERENCES_.46
+OBJC_METH_VAR_NAME_.47
+OBJC_SELECTOR_REFERENCES_.48
+OBJC_METH_VAR_NAME_.49
+OBJC_SELECTOR_REFERENCES_.50
+OBJC_METH_VAR_NAME_.51
+OBJC_SELECTOR_REFERENCES_.52
+OBJC_METH_VAR_NAME_.53
+OBJC_SELECTOR_REFERENCES_.54
+OBJC_CLASSLIST_REFERENCES_$_.55
+OBJC_METH_VAR_NAME_.56
+OBJC_SELECTOR_REFERENCES_.57
+OBJC_METH_VAR_NAME_.58
+OBJC_SELECTOR_REFERENCES_.59
+OBJC_METH_VAR_NAME_.60
+OBJC_SELECTOR_REFERENCES_.61
+OBJC_METH_VAR_NAME_.62
+OBJC_SELECTOR_REFERENCES_.63
+OBJC_METH_VAR_NAME_.64
+OBJC_SELECTOR_REFERENCES_.65
+OBJC_METH_VAR_NAME_.66
+OBJC_SELECTOR_REFERENCES_.67
+OBJC_METH_VAR_NAME_.68
+OBJC_SELECTOR_REFERENCES_.69
+OBJC_METH_VAR_NAME_.70
+OBJC_SELECTOR_REFERENCES_.71
+OBJC_METH_VAR_NAME_.72
+OBJC_SELECTOR_REFERENCES_.73
+OBJC_METH_VAR_NAME_.74
+OBJC_SELECTOR_REFERENCES_.75
+OBJC_METH_VAR_NAME_.76
+OBJC_SELECTOR_REFERENCES_.77
+OBJC_METH_VAR_NAME_.78
+OBJC_SELECTOR_REFERENCES_.79
+OBJC_METH_VAR_NAME_.80
+OBJC_SELECTOR_REFERENCES_.81
+OBJC_METH_VAR_NAME_.82
+OBJC_SELECTOR_REFERENCES_.83
+OBJC_METH_VAR_NAME_.84
+OBJC_SELECTOR_REFERENCES_.85
+OBJC_METH_VAR_NAME_.86
+OBJC_SELECTOR_REFERENCES_.87
+OBJC_METH_VAR_NAME_.88
+OBJC_SELECTOR_REFERENCES_.89
+OBJC_METH_VAR_NAME_.90
+OBJC_SELECTOR_REFERENCES_.91
+OBJC_METH_VAR_NAME_.92
+OBJC_SELECTOR_REFERENCES_.93
+OBJC_METH_VAR_NAME_.94
+OBJC_SELECTOR_REFERENCES_.95
+OBJC_METH_VAR_NAME_.96
+OBJC_SELECTOR_REFERENCES_.97
+OBJC_METH_VAR_NAME_.98
+OBJC_SELECTOR_REFERENCES_.99
+OBJC_METH_VAR_NAME_.100
+OBJC_SELECTOR_REFERENCES_.101
+OBJC_METH_VAR_NAME_.102
+OBJC_SELECTOR_REFERENCES_.103
+OBJC_METH_VAR_NAME_.104
+OBJC_SELECTOR_REFERENCES_.105
+OBJC_METH_VAR_NAME_.106
+OBJC_SELECTOR_REFERENCES_.107
+OBJC_METH_VAR_NAME_.108
+OBJC_SELECTOR_REFERENCES_.109
+OBJC_METH_VAR_NAME_.110
+OBJC_SELECTOR_REFERENCES_.111
+OBJC_METH_VAR_NAME_.112
+OBJC_SELECTOR_REFERENCES_.113
+OBJC_METH_VAR_NAME_.114
+OBJC_SELECTOR_REFERENCES_.115
+OBJC_METH_VAR_NAME_.116
+OBJC_SELECTOR_REFERENCES_.117
+OBJC_METH_VAR_NAME_.118
+OBJC_SELECTOR_REFERENCES_.119
+OBJC_METH_VAR_NAME_.120
+OBJC_SELECTOR_REFERENCES_.121
+OBJC_METH_VAR_NAME_.122
+OBJC_SELECTOR_REFERENCES_.123
+OBJC_METH_VAR_NAME_.124
+OBJC_SELECTOR_REFERENCES_.125
+OBJC_METH_VAR_NAME_.126
+OBJC_SELECTOR_REFERENCES_.127
+OBJC_METH_VAR_NAME_.128
+OBJC_SELECTOR_REFERENCES_.129
+OBJC_METH_VAR_NAME_.130
+OBJC_SELECTOR_REFERENCES_.131
+OBJC_METH_VAR_NAME_.132
+OBJC_SELECTOR_REFERENCES_.133
+OBJC_METH_VAR_NAME_.134
+OBJC_SELECTOR_REFERENCES_.135
+OBJC_METH_VAR_NAME_.136
+OBJC_SELECTOR_REFERENCES_.137
+OBJC_METH_VAR_NAME_.138
+OBJC_SELECTOR_REFERENCES_.139
+OBJC_METH_VAR_NAME_.140
+OBJC_SELECTOR_REFERENCES_.141
+OBJC_METH_VAR_NAME_.142
+OBJC_SELECTOR_REFERENCES_.143
+OBJC_METH_VAR_NAME_.144
+OBJC_SELECTOR_REFERENCES_.145
+OBJC_METH_VAR_NAME_.146
+OBJC_SELECTOR_REFERENCES_.147
+OBJC_METH_VAR_NAME_.148
+OBJC_SELECTOR_REFERENCES_.149
+OBJC_METH_VAR_NAME_.150
+OBJC_SELECTOR_REFERENCES_.151
+OBJC_METH_VAR_NAME_.152
+OBJC_SELECTOR_REFERENCES_.153
+OBJC_METH_VAR_NAME_.154
+OBJC_SELECTOR_REFERENCES_.155
+OBJC_METH_VAR_NAME_.156
+OBJC_SELECTOR_REFERENCES_.157
+OBJC_METH_VAR_NAME_.158
+OBJC_SELECTOR_REFERENCES_.159
+OBJC_METH_VAR_NAME_.160
+OBJC_SELECTOR_REFERENCES_.161
+OBJC_METH_VAR_NAME_.162
+OBJC_SELECTOR_REFERENCES_.163
+OBJC_METH_VAR_NAME_.164
+OBJC_SELECTOR_REFERENCES_.165
+OBJC_METH_VAR_NAME_.166
+OBJC_SELECTOR_REFERENCES_.167
+OBJC_METH_VAR_NAME_.168
+OBJC_SELECTOR_REFERENCES_.169
+OBJC_METH_VAR_NAME_.170
+OBJC_SELECTOR_REFERENCES_.171
+OBJC_METH_VAR_NAME_.172
+OBJC_SELECTOR_REFERENCES_.173
+OBJC_METH_VAR_NAME_.174
+OBJC_SELECTOR_REFERENCES_.175
+OBJC_METH_VAR_NAME_.176
+OBJC_SELECTOR_REFERENCES_.177
+OBJC_METH_VAR_NAME_.178
+OBJC_SELECTOR_REFERENCES_.179
+OBJC_METH_VAR_NAME_.180
+OBJC_SELECTOR_REFERENCES_.181
+OBJC_METH_VAR_NAME_.182
+l_OBJC_$_CATEGORY_INSTANCE_METHODS_NSArray_$_Chameleon
+OBJC_METH_VAR_NAME_.183
+OBJC_METH_VAR_TYPE_.184
+OBJC_METH_VAR_NAME_.185
+OBJC_METH_VAR_NAME_.186
+OBJC_METH_VAR_TYPE_.187
+OBJC_METH_VAR_TYPE_.188
+OBJC_METH_VAR_TYPE_.189
+OBJC_METH_VAR_NAME_.190
+OBJC_METH_VAR_TYPE_.191
+OBJC_METH_VAR_TYPE_.192
+OBJC_METH_VAR_TYPE_.193
+OBJC_METH_VAR_TYPE_.194
+l_OBJC_$_CATEGORY_CLASS_METHODS_NSArray_$_Chameleon
+l_OBJC_$_CATEGORY_NSArray_$_Chameleon
+OBJC_CLASSLIST_SUP_REFS_$_
+OBJC_METH_VAR_NAME_.195
+OBJC_SELECTOR_REFERENCES_.196
+OBJC_METH_VAR_NAME_.197
+OBJC_SELECTOR_REFERENCES_.198
+OBJC_METH_VAR_NAME_.199
+OBJC_SELECTOR_REFERENCES_.200
+OBJC_METH_VAR_NAME_.201
+OBJC_SELECTOR_REFERENCES_.202
+OBJC_IVAR_$_ChameleonCountedColor._count
+OBJC_IVAR_$_ChameleonCountedColor._color
+OBJC_CLASS_NAME_.203
+l_OBJC_METACLASS_RO_$_ChameleonCountedColor
+OBJC_CLASS_NAME_.204
+OBJC_METH_VAR_TYPE_.205
+OBJC_METH_VAR_TYPE_.206
+OBJC_METH_VAR_NAME_.207
+OBJC_METH_VAR_TYPE_.208
+OBJC_METH_VAR_TYPE_.209
+OBJC_METH_VAR_TYPE_.210
+OBJC_METH_VAR_TYPE_.211
+l_OBJC_$_INSTANCE_METHODS_ChameleonCountedColor
+OBJC_METH_VAR_NAME_.212
+OBJC_METH_VAR_TYPE_.213
+OBJC_METH_VAR_NAME_.214
+OBJC_METH_VAR_TYPE_.215
+l_OBJC_$_INSTANCE_VARIABLES_ChameleonCountedColor
+OBJC_PROP_NAME_ATTR_.216
+OBJC_PROP_NAME_ATTR_.217
+OBJC_PROP_NAME_ATTR_.218
+l_OBJC_$_PROP_LIST_ChameleonCountedColor
+l_OBJC_CLASS_RO_$_ChameleonCountedColor
+OBJC_LABEL_CLASS_$
+CGPointMake
+CGSizeMake
+-[ChameleonCountedColor .cxx_destruct]
+/Users/eb/Desktop/Chameleon/Pod/Classes/Objective-C/NSArray+Chameleon.m
+-[ChameleonCountedColor setColor:]
+-[ChameleonCountedColor color]
+-[ChameleonCountedColor setCount:]
+-[ChameleonCountedColor count]
+-[ChameleonCountedColor compare:]
+-[ChameleonCountedColor initWithColor:count:]
++[NSArray(Chameleon) nearestFlatColorForL:A:B:alpha:]
++[NSArray(Chameleon) totalSumOfDifferencesFroml1:l2:a1:a2:b1:b2:]
++[NSArray(Chameleon) flatColors]
++[NSArray(Chameleon) colorWithFlatVersionOf:]
++[NSArray(Chameleon) add:to:]
++[NSArray(Chameleon) triadicColorSchemeFromHue:Saturation:Brightness:flat:]
++[NSArray(Chameleon) complementaryColorSchemeFromHue:Saturation:Brightness:flat:]
++[NSArray(Chameleon) analogousColorSchemeFromHue:Saturation:Brightness:flat:]
+-[NSArray(Chameleon) findColorsOfImage:imageColors:]
++[NSArray(Chameleon) arrayOfColorsFromImage:withFlatScheme:]
++[NSArray(Chameleon) arrayOfColorsWithColorScheme:usingColor:withFlatScheme:]
++[NSArray(Chameleon) arrayOfColorsWithColorScheme:with:flatScheme:]
+-[UILabel(Chameleon) setSubstituteFontName:]
+l_OBJC_$_CATEGORY_INSTANCE_METHODS_UILabel_$_Chameleon
+l_OBJC_$_CATEGORY_UILabel_$_Chameleon
+-[UILabel(Chameleon) setSubstituteFontName:]
+/Users/eb/Desktop/Chameleon/Pod/Classes/Objective-C/UILabel+Chameleon.m
++[UIImage(ChameleonPrivate) colorFromImage:atPoint:]
++[UIImage(ChameleonPrivate) imageWithImage:scaledToSize:]
+-[UIImage(ChameleonPrivate) imageScaledToSize:]
+l_OBJC_$_CATEGORY_INSTANCE_METHODS_UIImage_$_ChameleonPrivate
+OBJC_METH_VAR_NAME_.6
+OBJC_METH_VAR_TYPE_.7
+OBJC_METH_VAR_TYPE_.9
+l_OBJC_$_CATEGORY_CLASS_METHODS_UIImage_$_ChameleonPrivate
+l_OBJC_$_CATEGORY_UIImage_$_ChameleonPrivate
+-[UIImage(ChameleonPrivate) imageScaledToSize:]
+/Users/eb/Desktop/Chameleon/Pod/Classes/Objective-C/UIImage+ChameleonPrivate.m
++[UIImage(ChameleonPrivate) imageWithImage:scaledToSize:]
++[UIImage(ChameleonPrivate) colorFromImage:atPoint:]
+l_OBJC_METACLASS_RO_$_ChameleonConstants
+l_OBJC_CLASS_RO_$_ChameleonConstants
+/Users/eb/Desktop/Chameleon/Pod/Classes/Objective-C/ChameleonConstants.m
+-[UIViewController(Chameleon) setShouldContrast:]
+-[UIViewController(Chameleon) shouldContrast]
+-[UIViewController(Chameleon) setShouldUseLightContent:]
+-[UIViewController(Chameleon) shouldUseLightContent]
++[UIViewController(Chameleon) load]
+__35+[UIViewController(Chameleon) load]_block_invoke
+__copy_helper_block_
+__destroy_helper_block_
+-[UIViewController(Chameleon) setStatusBarStyle:]
+-[UIViewController(Chameleon) chameleon_preferredStatusBarStyle]
+-[UIViewController(Chameleon) setThemeUsingPrimaryColor:withContentStyle:]
+-[UIViewController(Chameleon) setThemeUsingPrimaryColor:withSecondaryColor:andContentStyle:]
+-[UIViewController(Chameleon) setThemeUsingPrimaryColor:withSecondaryColor:usingFontName:andContentStyle:]
++[UIViewController(Chameleon) customizeBarButtonItemWithPrimaryColor:contentStyle:]
++[UIViewController(Chameleon) customizeBarButtonItemWithPrimaryColor:fontName:fontSize:contentStyle:]
++[UIViewController(Chameleon) customizeButtonWithPrimaryColor:withContentStyle:]
++[UIViewController(Chameleon) customizeButtonWithPrimaryColor:secondaryColor:withContentStyle:]
++[UIViewController(Chameleon) customizeImagePickerControllerWithPrimaryColor:withContentStyle:]
++[UIViewController(Chameleon) customizeLabelWithPrimaryColor:fontName:fontSize:withContentStyle:]
++[UIViewController(Chameleon) customizeNavigationBarWithPrimaryColor:withContentStyle:]
++[UIViewController(Chameleon) customizeNavigationBarWithBarColor:textColor:buttonColor:]
++[UIViewController(Chameleon) customizeNavigationBarWithBarColor:textColor:fontName:fontSize:buttonColor:]
++[UIViewController(Chameleon) customizePageControlWithPrimaryColor:withContentStyle:]
++[UIViewController(Chameleon) customizeProgressViewWithPrimaryColor:withContentStyle:]
++[UIViewController(Chameleon) customizeProgressViewWithPrimaryColor:andSecondaryColor:]
++[UIViewController(Chameleon) customizeSearchBarWithPrimaryColor:withContentStyle:]
++[UIViewController(Chameleon) customizeSegmentedControlWithPrimaryColor:withContentStyle:]
++[UIViewController(Chameleon) customizeSegmentedControlWithPrimaryColor:withFontName:withFontSize:withContentStyle:]
++[UIViewController(Chameleon) customizeSliderWithPrimaryColor:withContentStyle:]
++[UIViewController(Chameleon) customizeSliderWithPrimaryColor:andSecondaryColor:]
++[UIViewController(Chameleon) customizeStepperWithPrimaryColor:withContentStyle:]
++[UIViewController(Chameleon) customizeSwitchWithPrimaryColor:]
++[UIViewController(Chameleon) customizeSwitchWithPrimaryColor:andSecondaryColor:]
++[UIViewController(Chameleon) customizeTabBarWithBarTintColor:andTintColor:]
++[UIViewController(Chameleon) customizeTabBarWithBarTintColor:tintColor:fontName:fontSize:]
++[UIViewController(Chameleon) customizeToolbarWithPrimaryColor:withContentStyle:]
+-[UIViewController(Chameleon) contrastingStatusBarStyleForColor:]
+load.onceToken
+OBJC_METH_VAR_NAME_.11
+OBJC_SELECTOR_REFERENCES_.12
+OBJC_METH_VAR_NAME_.13
+OBJC_SELECTOR_REFERENCES_.14
+OBJC_METH_VAR_NAME_.15
+OBJC_SELECTOR_REFERENCES_.16
+OBJC_CLASSLIST_REFERENCES_$_.21
+OBJC_CLASSLIST_REFERENCES_$_.34
+OBJC_SELECTOR_REFERENCES_.36
+OBJC_SELECTOR_REFERENCES_.38
+OBJC_SELECTOR_REFERENCES_.40
+OBJC_METH_VAR_NAME_.55
+OBJC_SELECTOR_REFERENCES_.56
+OBJC_METH_VAR_NAME_.57
+OBJC_SELECTOR_REFERENCES_.58
+OBJC_METH_VAR_NAME_.59
+OBJC_SELECTOR_REFERENCES_.60
+OBJC_METH_VAR_NAME_.61
+OBJC_SELECTOR_REFERENCES_.62
+OBJC_METH_VAR_NAME_.63
+OBJC_SELECTOR_REFERENCES_.64
+OBJC_METH_VAR_NAME_.65
+OBJC_SELECTOR_REFERENCES_.66
+OBJC_METH_VAR_NAME_.67
+OBJC_SELECTOR_REFERENCES_.68
+OBJC_METH_VAR_NAME_.69
+OBJC_SELECTOR_REFERENCES_.70
+OBJC_METH_VAR_NAME_.71
+OBJC_SELECTOR_REFERENCES_.72
+OBJC_METH_VAR_NAME_.73
+OBJC_SELECTOR_REFERENCES_.74
+OBJC_METH_VAR_NAME_.75
+OBJC_SELECTOR_REFERENCES_.76
+OBJC_CLASSLIST_REFERENCES_$_.77
+OBJC_CLASSLIST_REFERENCES_$_.82
+OBJC_METH_VAR_NAME_.83
+OBJC_SELECTOR_REFERENCES_.84
+OBJC_METH_VAR_NAME_.85
+OBJC_SELECTOR_REFERENCES_.86
+OBJC_METH_VAR_NAME_.87
+OBJC_SELECTOR_REFERENCES_.88
+OBJC_METH_VAR_NAME_.89
+OBJC_SELECTOR_REFERENCES_.90
+OBJC_METH_VAR_NAME_.91
+OBJC_SELECTOR_REFERENCES_.92
+OBJC_CLASSLIST_REFERENCES_$_.93
+OBJC_CLASSLIST_REFERENCES_$_.96
+OBJC_METH_VAR_NAME_.97
+OBJC_SELECTOR_REFERENCES_.98
+OBJC_CLASSLIST_REFERENCES_$_.99
+OBJC_CLASSLIST_REFERENCES_$_.100
+OBJC_CLASSLIST_REFERENCES_$_.101
+OBJC_CLASSLIST_REFERENCES_$_.104
+OBJC_METH_VAR_NAME_.105
+OBJC_SELECTOR_REFERENCES_.106
+OBJC_METH_VAR_NAME_.107
+OBJC_SELECTOR_REFERENCES_.108
+OBJC_METH_VAR_NAME_.109
+OBJC_SELECTOR_REFERENCES_.110
+OBJC_METH_VAR_NAME_.111
+OBJC_SELECTOR_REFERENCES_.112
+OBJC_CLASSLIST_REFERENCES_$_.113
+OBJC_CLASSLIST_REFERENCES_$_.116
+OBJC_CLASSLIST_REFERENCES_$_.117
+OBJC_CLASSLIST_REFERENCES_$_.118
+OBJC_METH_VAR_NAME_.119
+OBJC_SELECTOR_REFERENCES_.120
+OBJC_METH_VAR_NAME_.121
+OBJC_SELECTOR_REFERENCES_.122
+OBJC_CLASSLIST_REFERENCES_$_.123
+OBJC_CLASSLIST_REFERENCES_$_.128
+OBJC_METH_VAR_NAME_.129
+OBJC_SELECTOR_REFERENCES_.130
+OBJC_METH_VAR_NAME_.131
+OBJC_SELECTOR_REFERENCES_.132
+OBJC_CLASSLIST_REFERENCES_$_.133
+OBJC_CLASSLIST_REFERENCES_$_.138
+OBJC_METH_VAR_NAME_.139
+OBJC_SELECTOR_REFERENCES_.140
+OBJC_METH_VAR_NAME_.141
+OBJC_SELECTOR_REFERENCES_.142
+OBJC_METH_VAR_NAME_.143
+OBJC_SELECTOR_REFERENCES_.144
+OBJC_CLASSLIST_REFERENCES_$_.145
+OBJC_CLASSLIST_REFERENCES_$_.158
+OBJC_CLASSLIST_REFERENCES_$_.159
+OBJC_CLASSLIST_REFERENCES_$_.164
+OBJC_METH_VAR_NAME_.165
+OBJC_SELECTOR_REFERENCES_.166
+OBJC_CLASSLIST_REFERENCES_$_.167
+OBJC_CLASSLIST_REFERENCES_$_.168
+OBJC_METH_VAR_NAME_.169
+OBJC_SELECTOR_REFERENCES_.170
+OBJC_METH_VAR_NAME_.171
+OBJC_SELECTOR_REFERENCES_.172
+OBJC_CLASS_NAME_.173
+OBJC_METH_VAR_TYPE_.174
+OBJC_METH_VAR_TYPE_.175
+OBJC_METH_VAR_TYPE_.176
+OBJC_METH_VAR_NAME_.177
+OBJC_METH_VAR_TYPE_.178
+OBJC_METH_VAR_NAME_.179
+OBJC_METH_VAR_TYPE_.180
+OBJC_METH_VAR_NAME_.181
+OBJC_METH_VAR_TYPE_.182
+OBJC_METH_VAR_TYPE_.183
+l_OBJC_$_CATEGORY_INSTANCE_METHODS_UIViewController_$_Chameleon
+OBJC_METH_VAR_NAME_.184
+OBJC_METH_VAR_TYPE_.185
+OBJC_METH_VAR_TYPE_.186
+OBJC_METH_VAR_NAME_.187
+OBJC_METH_VAR_NAME_.189
+OBJC_METH_VAR_TYPE_.190
+OBJC_METH_VAR_NAME_.194
+OBJC_METH_VAR_TYPE_.195
+l_OBJC_$_CATEGORY_CLASS_METHODS_UIViewController_$_Chameleon
+l_OBJC_$_CATEGORY_UIViewController_$_Chameleon
+OBJC_LABEL_NONLAZY_CATEGORY_$
+_dispatch_once
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/usr/include/dispatch/once.h
+-[UIViewController(Chameleon) contrastingStatusBarStyleForColor:]
+/Users/eb/Desktop/Chameleon/Pod/Classes/Objective-C/UIViewController+Chameleon.m
++[UIViewController(Chameleon) customizeToolbarWithPrimaryColor:withContentStyle:]
++[UIViewController(Chameleon) customizeTabBarWithBarTintColor:tintColor:fontName:fontSize:]
++[UIViewController(Chameleon) customizeTabBarWithBarTintColor:andTintColor:]
++[UIViewController(Chameleon) customizeSwitchWithPrimaryColor:andSecondaryColor:]
++[UIViewController(Chameleon) customizeSwitchWithPrimaryColor:]
++[UIViewController(Chameleon) customizeStepperWithPrimaryColor:withContentStyle:]
++[UIViewController(Chameleon) customizeSliderWithPrimaryColor:andSecondaryColor:]
++[UIViewController(Chameleon) customizeSliderWithPrimaryColor:withContentStyle:]
++[UIViewController(Chameleon) customizeSegmentedControlWithPrimaryColor:withFontName:withFontSize:withContentStyle:]
++[UIViewController(Chameleon) customizeSegmentedControlWithPrimaryColor:withContentStyle:]
++[UIViewController(Chameleon) customizeSearchBarWithPrimaryColor:withContentStyle:]
++[UIViewController(Chameleon) customizeProgressViewWithPrimaryColor:andSecondaryColor:]
++[UIViewController(Chameleon) customizeProgressViewWithPrimaryColor:withContentStyle:]
++[UIViewController(Chameleon) customizePageControlWithPrimaryColor:withContentStyle:]
++[UIViewController(Chameleon) customizeNavigationBarWithBarColor:textColor:fontName:fontSize:buttonColor:]
++[UIViewController(Chameleon) customizeNavigationBarWithBarColor:textColor:buttonColor:]
++[UIViewController(Chameleon) customizeNavigationBarWithPrimaryColor:withContentStyle:]
++[UIViewController(Chameleon) customizeLabelWithPrimaryColor:fontName:fontSize:withContentStyle:]
++[UIViewController(Chameleon) customizeImagePickerControllerWithPrimaryColor:withContentStyle:]
++[UIViewController(Chameleon) customizeButtonWithPrimaryColor:secondaryColor:withContentStyle:]
++[UIViewController(Chameleon) customizeButtonWithPrimaryColor:withContentStyle:]
++[UIViewController(Chameleon) customizeBarButtonItemWithPrimaryColor:fontName:fontSize:contentStyle:]
++[UIViewController(Chameleon) customizeBarButtonItemWithPrimaryColor:contentStyle:]
+-[UIViewController(Chameleon) setThemeUsingPrimaryColor:withSecondaryColor:usingFontName:andContentStyle:]
+-[UIViewController(Chameleon) setThemeUsingPrimaryColor:withSecondaryColor:andContentStyle:]
+-[UIViewController(Chameleon) setThemeUsingPrimaryColor:withContentStyle:]
+-[UIViewController(Chameleon) chameleon_preferredStatusBarStyle]
+-[UIViewController(Chameleon) setStatusBarStyle:]
++[UIViewController(Chameleon) load]
+-[UIViewController(Chameleon) shouldUseLightContent]
+-[UIViewController(Chameleon) setShouldUseLightContent:]
+-[UIViewController(Chameleon) shouldContrast]
+-[UIViewController(Chameleon) setShouldContrast:]
++[UINavigationController(Chameleon) load]
+__41+[UINavigationController(Chameleon) load]_block_invoke
+-[UINavigationController(Chameleon) chameleon_viewDidLoad]
+-[UINavigationController(Chameleon) findHairlineImageViewUnder:]
+-[UINavigationController(Chameleon) setShouldContrast:]
+-[UINavigationController(Chameleon) shouldContrast]
+-[UINavigationController(Chameleon) setShouldUseLightContent:]
+-[UINavigationController(Chameleon) shouldUseLightContent]
+-[UINavigationController(Chameleon) setHidesNavigationBarHairline:]
+-[UINavigationController(Chameleon) hidesNavigationBarHairline]
+-[UINavigationController(Chameleon) setStatusBarStyle:]
+-[UINavigationController(Chameleon) preferredStatusBarStyle]
+-[UINavigationController(Chameleon) contrastingStatusBarStyleForColor:]
+OBJC_METH_VAR_NAME_.40
+OBJC_SELECTOR_REFERENCES_.41
+OBJC_CLASS_NAME_.42
+OBJC_METH_VAR_TYPE_.43
+OBJC_METH_VAR_TYPE_.45
+OBJC_METH_VAR_NAME_.46
+OBJC_METH_VAR_TYPE_.48
+OBJC_METH_VAR_TYPE_.49
+OBJC_METH_VAR_TYPE_.50
+l_OBJC_$_CATEGORY_INSTANCE_METHODS_UINavigationController_$_Chameleon
+l_OBJC_$_CATEGORY_CLASS_METHODS_UINavigationController_$_Chameleon
+OBJC_PROP_NAME_ATTR_.52
+l_OBJC_$_PROP_LIST_UINavigationController_$_Chameleon
+l_OBJC_$_CATEGORY_UINavigationController_$_Chameleon
+-[UINavigationController(Chameleon) contrastingStatusBarStyleForColor:]
+/Users/eb/Desktop/Chameleon/Pod/Classes/Objective-C/UINavigationController+Chameleon.m
+-[UINavigationController(Chameleon) preferredStatusBarStyle]
+-[UINavigationController(Chameleon) setStatusBarStyle:]
+-[UINavigationController(Chameleon) hidesNavigationBarHairline]
+-[UINavigationController(Chameleon) setHidesNavigationBarHairline:]
+-[UINavigationController(Chameleon) shouldUseLightContent]
+-[UINavigationController(Chameleon) setShouldUseLightContent:]
+-[UINavigationController(Chameleon) shouldContrast]
+-[UINavigationController(Chameleon) setShouldContrast:]
+-[UINavigationController(Chameleon) findHairlineImageViewUnder:]
+-[UINavigationController(Chameleon) chameleon_viewDidLoad]
++[UINavigationController(Chameleon) load]
++[UIView(UIViewAppearance_Swift) appearanceWhenContainedWithin:]
+l_OBJC_$_CATEGORY_CLASS_METHODS_UIView_$_UIViewAppearance_Swift
+l_OBJC_$_CATEGORY_UIView_$_UIViewAppearance_Swift
++[UIView(UIViewAppearance_Swift) appearanceWhenContainedWithin:]
+/Users/eb/Desktop/Chameleon/Pod/Classes/Objective-C/UIAppearance+Swift.m
+-[UIView(ChameleonPrivate) isTopViewInWindow]
+-[UIView(ChameleonPrivate) findTopMostViewForPoint:]
+OBJC_METH_VAR_TYPE_.22
+l_OBJC_$_CATEGORY_INSTANCE_METHODS_UIView_$_ChameleonPrivate
+l_OBJC_$_CATEGORY_UIView_$_ChameleonPrivate
+-[UIView(ChameleonPrivate) findTopMostViewForPoint:]
+/Users/eb/Desktop/Chameleon/Pod/Classes/Objective-C/UIView+ChameleonPrivate.m
+-[UIView(ChameleonPrivate) isTopViewInWindow]
++[Chameleon setGlobalThemeUsingPrimaryColor:withContentStyle:]
++[Chameleon setGlobalThemeUsingPrimaryColor:withSecondaryColor:andContentStyle:]
++[Chameleon setGlobalThemeUsingPrimaryColor:withSecondaryColor:usingFontName:andContentStyle:]
++[Chameleon customizeBarButtonItemWithPrimaryColor:contentStyle:]
++[Chameleon customizeBarButtonItemWithPrimaryColor:fontName:fontSize:contentStyle:]
++[Chameleon customizeButtonWithPrimaryColor:withContentStyle:]
++[Chameleon customizeButtonWithPrimaryColor:secondaryColor:withContentStyle:]
++[Chameleon customizeImagePickerControllerWithPrimaryColor:withContentStyle:]
++[Chameleon customizeLabelWithPrimaryColor:fontName:fontSize:withContentStyle:]
++[Chameleon customizeNavigationBarWithPrimaryColor:withContentStyle:]
++[Chameleon customizeNavigationBarWithBarColor:textColor:buttonColor:]
++[Chameleon customizeNavigationBarWithBarColor:textColor:fontName:fontSize:buttonColor:]
++[Chameleon customizePageControlWithPrimaryColor:withContentStyle:]
++[Chameleon customizeProgressViewWithPrimaryColor:withContentStyle:]
++[Chameleon customizeProgressViewWithPrimaryColor:andSecondaryColor:]
++[Chameleon customizeSearchBarWithPrimaryColor:withContentStyle:]
++[Chameleon customizeSegmentedControlWithPrimaryColor:withContentStyle:]
++[Chameleon customizeSegmentedControlWithPrimaryColor:withFontName:withFontSize:withContentStyle:]
++[Chameleon customizeSliderWithPrimaryColor:withContentStyle:]
++[Chameleon customizeSliderWithPrimaryColor:andSecondaryColor:]
++[Chameleon customizeStepperWithPrimaryColor:withContentStyle:]
++[Chameleon customizeSwitchWithPrimaryColor:]
++[Chameleon customizeSwitchWithPrimaryColor:andSecondaryColor:]
++[Chameleon customizeTabBarWithBarTintColor:andTintColor:]
++[Chameleon customizeTabBarWithBarTintColor:tintColor:fontName:fontSize:]
++[Chameleon customizeToolbarWithPrimaryColor:withContentStyle:]
+OBJC_CLASSLIST_REFERENCES_$_.5
+OBJC_SELECTOR_REFERENCES_.7
+OBJC_METH_VAR_NAME_.42
+OBJC_SELECTOR_REFERENCES_.43
+OBJC_METH_VAR_NAME_.44
+OBJC_SELECTOR_REFERENCES_.45
+OBJC_CLASSLIST_REFERENCES_$_.46
+OBJC_CLASSLIST_REFERENCES_$_.51
+OBJC_METH_VAR_NAME_.52
+OBJC_SELECTOR_REFERENCES_.53
+OBJC_METH_VAR_NAME_.54
+OBJC_SELECTOR_REFERENCES_.55
+OBJC_CLASSLIST_REFERENCES_$_.62
+OBJC_CLASSLIST_REFERENCES_$_.65
+OBJC_CLASSLIST_REFERENCES_$_.68
+OBJC_CLASSLIST_REFERENCES_$_.69
+OBJC_CLASSLIST_REFERENCES_$_.70
+OBJC_CLASSLIST_REFERENCES_$_.73
+OBJC_CLASSLIST_REFERENCES_$_.85
+OBJC_CLASSLIST_REFERENCES_$_.86
+OBJC_CLASSLIST_REFERENCES_$_.87
+OBJC_CLASSLIST_REFERENCES_$_.92
+OBJC_METH_VAR_NAME_.93
+OBJC_SELECTOR_REFERENCES_.94
+OBJC_METH_VAR_NAME_.95
+OBJC_SELECTOR_REFERENCES_.96
+OBJC_CLASSLIST_REFERENCES_$_.97
+OBJC_CLASSLIST_REFERENCES_$_.102
+OBJC_METH_VAR_NAME_.103
+OBJC_SELECTOR_REFERENCES_.104
+OBJC_CLASSLIST_REFERENCES_$_.107
+OBJC_CLASSLIST_REFERENCES_$_.114
+OBJC_METH_VAR_NAME_.115
+OBJC_SELECTOR_REFERENCES_.116
+OBJC_METH_VAR_NAME_.117
+OBJC_SELECTOR_REFERENCES_.118
+OBJC_METH_VAR_NAME_.123
+OBJC_SELECTOR_REFERENCES_.124
+OBJC_METH_VAR_NAME_.125
+OBJC_SELECTOR_REFERENCES_.126
+OBJC_CLASSLIST_REFERENCES_$_.127
+OBJC_METH_VAR_NAME_.133
+OBJC_SELECTOR_REFERENCES_.134
+OBJC_CLASSLIST_REFERENCES_$_.135
+OBJC_CLASSLIST_REFERENCES_$_.139
+OBJC_METH_VAR_TYPE_.144
+OBJC_METH_VAR_NAME_.145
+OBJC_METH_VAR_TYPE_.146
+OBJC_METH_VAR_TYPE_.147
+OBJC_METH_VAR_TYPE_.149
+OBJC_METH_VAR_TYPE_.151
+OBJC_METH_VAR_TYPE_.152
+OBJC_METH_VAR_TYPE_.153
+OBJC_METH_VAR_TYPE_.154
+OBJC_METH_VAR_NAME_.155
+OBJC_METH_VAR_TYPE_.156
+l_OBJC_$_CLASS_METHODS_Chameleon
+l_OBJC_METACLASS_RO_$_Chameleon
+l_OBJC_CLASS_RO_$_Chameleon
++[Chameleon customizeToolbarWithPrimaryColor:withContentStyle:]
+/Users/eb/Desktop/Chameleon/Pod/Classes/Objective-C/Chameleon_.m
++[Chameleon customizeTabBarWithBarTintColor:tintColor:fontName:fontSize:]
++[Chameleon customizeTabBarWithBarTintColor:andTintColor:]
++[Chameleon customizeSwitchWithPrimaryColor:andSecondaryColor:]
++[Chameleon customizeSwitchWithPrimaryColor:]
++[Chameleon customizeStepperWithPrimaryColor:withContentStyle:]
++[Chameleon customizeSliderWithPrimaryColor:andSecondaryColor:]
++[Chameleon customizeSliderWithPrimaryColor:withContentStyle:]
++[Chameleon customizeSegmentedControlWithPrimaryColor:withFontName:withFontSize:withContentStyle:]
++[Chameleon customizeSegmentedControlWithPrimaryColor:withContentStyle:]
++[Chameleon customizeSearchBarWithPrimaryColor:withContentStyle:]
++[Chameleon customizeProgressViewWithPrimaryColor:andSecondaryColor:]
++[Chameleon customizeProgressViewWithPrimaryColor:withContentStyle:]
++[Chameleon customizePageControlWithPrimaryColor:withContentStyle:]
++[Chameleon customizeNavigationBarWithBarColor:textColor:fontName:fontSize:buttonColor:]
++[Chameleon customizeNavigationBarWithBarColor:textColor:buttonColor:]
++[Chameleon customizeNavigationBarWithPrimaryColor:withContentStyle:]
++[Chameleon customizeLabelWithPrimaryColor:fontName:fontSize:withContentStyle:]
++[Chameleon customizeImagePickerControllerWithPrimaryColor:withContentStyle:]
++[Chameleon customizeButtonWithPrimaryColor:secondaryColor:withContentStyle:]
++[Chameleon customizeButtonWithPrimaryColor:withContentStyle:]
++[Chameleon customizeBarButtonItemWithPrimaryColor:fontName:fontSize:contentStyle:]
++[Chameleon customizeBarButtonItemWithPrimaryColor:contentStyle:]
++[Chameleon setGlobalThemeUsingPrimaryColor:withSecondaryColor:usingFontName:andContentStyle:]
++[Chameleon setGlobalThemeUsingPrimaryColor:withSecondaryColor:andContentStyle:]
++[Chameleon setGlobalThemeUsingPrimaryColor:withContentStyle:]
++[UIColor(Chameleon) setGradientImage:]
++[UIColor(Chameleon) gradientImage]
++[UIColor(Chameleon) flatBlackColor]
++[UIColor(Chameleon) flatBlueColor]
++[UIColor(Chameleon) flatBrownColor]
++[UIColor(Chameleon) flatCoffeeColor]
++[UIColor(Chameleon) flatForestGreenColor]
++[UIColor(Chameleon) flatGrayColor]
++[UIColor(Chameleon) flatGreenColor]
++[UIColor(Chameleon) flatLimeColor]
++[UIColor(Chameleon) flatMagentaColor]
++[UIColor(Chameleon) flatMaroonColor]
++[UIColor(Chameleon) flatMintColor]
++[UIColor(Chameleon) flatNavyBlueColor]
++[UIColor(Chameleon) flatOrangeColor]
++[UIColor(Chameleon) flatPinkColor]
++[UIColor(Chameleon) flatPlumColor]
++[UIColor(Chameleon) flatPowderBlueColor]
++[UIColor(Chameleon) flatPurpleColor]
++[UIColor(Chameleon) flatRedColor]
++[UIColor(Chameleon) flatSandColor]
++[UIColor(Chameleon) flatSkyBlueColor]
++[UIColor(Chameleon) flatTealColor]
++[UIColor(Chameleon) flatWatermelonColor]
++[UIColor(Chameleon) flatWhiteColor]
++[UIColor(Chameleon) flatYellowColor]
++[UIColor(Chameleon) flatBlackColorDark]
++[UIColor(Chameleon) flatBlueColorDark]
++[UIColor(Chameleon) flatBrownColorDark]
++[UIColor(Chameleon) flatCoffeeColorDark]
++[UIColor(Chameleon) flatForestGreenColorDark]
++[UIColor(Chameleon) flatGrayColorDark]
++[UIColor(Chameleon) flatGreenColorDark]
++[UIColor(Chameleon) flatLimeColorDark]
++[UIColor(Chameleon) flatMagentaColorDark]
++[UIColor(Chameleon) flatMaroonColorDark]
++[UIColor(Chameleon) flatMintColorDark]
++[UIColor(Chameleon) flatNavyBlueColorDark]
++[UIColor(Chameleon) flatOrangeColorDark]
++[UIColor(Chameleon) flatPinkColorDark]
++[UIColor(Chameleon) flatPlumColorDark]
++[UIColor(Chameleon) flatPowderBlueColorDark]
++[UIColor(Chameleon) flatPurpleColorDark]
++[UIColor(Chameleon) flatRedColorDark]
++[UIColor(Chameleon) flatSandColorDark]
++[UIColor(Chameleon) flatSkyBlueColorDark]
++[UIColor(Chameleon) flatTealColorDark]
++[UIColor(Chameleon) flatWatermelonColorDark]
++[UIColor(Chameleon) flatWhiteColorDark]
++[UIColor(Chameleon) flatYellowColorDark]
++[UIColor(Chameleon) colorWithAverageColorFromImage:]
++[UIColor(Chameleon) colorWithAverageColorFromImage:withAlpha:]
++[UIColor(Chameleon) colorWithComplementaryFlatColorOf:]
++[UIColor(Chameleon) colorWithComplementaryFlatColorOf:withAlpha:]
++[UIColor(Chameleon) colorWithFlatVersionOf:]
++[UIColor(Chameleon) colorWithFlatVersionFrom:]
++[UIColor(Chameleon) colorWithFlatVersionOf:withAlpha:]
++[UIColor(Chameleon) colorWithContrastingBlackOrWhiteColorOn:isFlat:]
++[UIColor(Chameleon) colorWithContrastingBlackOrWhiteColorOn:isFlat:alpha:]
++[UIColor(Chameleon) colorWithGradientStyle:withFrame:andColors:]
++[UIColor(Chameleon) colorWithHexString:]
++[UIColor(Chameleon) colorWithHexString:withAlpha:]
++[UIColor(Chameleon) hexValueToUnsigned:]
++[UIColor(Chameleon) generateRandomNumberWithMax:]
++[UIColor(Chameleon) randomFlatColor]
++[UIColor(Chameleon) colorWithRandomColorInArray:]
++[UIColor(Chameleon) colorWithRandomFlatColorExcludingColorsInArray:]
++[UIColor(Chameleon) colorWithRandomFlatColorOfShadeStyle:]
++[UIColor(Chameleon) colorWithRandomFlatColorOfShadeStyle:withAlpha:]
+-[UIColor(Chameleon) flatten]
+-[UIColor(Chameleon) darkenByPercentage:]
+-[UIColor(Chameleon) hexValue]
+-[UIColor(Chameleon) lightenByPercentage:]
+-[UIColor(Chameleon) isEqualToColor:]
++[UIColor(Chameleon) flatColors]
+-[UIColor(Chameleon) RGBAValue]
+-[UIColor(Chameleon) getRGBAComponents:]
+-[UIColor(Chameleon) isMonochromeOrRGB]
++[UIColor(Chameleon) totalSumOfDifferencesFroml1:l2:a1:a2:b1:b2:]
++[UIColor(Chameleon) nearestFlatColorForL:A:B:alpha:]
+OBJC_METH_VAR_NAME_.23
+OBJC_SELECTOR_REFERENCES_.24
+OBJC_METH_VAR_NAME_.25
+OBJC_SELECTOR_REFERENCES_.26
+OBJC_METH_VAR_NAME_.27
+OBJC_SELECTOR_REFERENCES_.28
+OBJC_METH_VAR_NAME_.31
+OBJC_SELECTOR_REFERENCES_.32
+OBJC_CLASSLIST_REFERENCES_$_.33
+OBJC_CLASSLIST_REFERENCES_$_.38
+colorWithGradientStyle:withFrame:andColors:.locations
+OBJC_CLASSLIST_REFERENCES_$_.72
+_unnamed_cfstring_
+.str.75
+_unnamed_cfstring_.76
+OBJC_METH_VAR_NAME_.77
+OBJC_SELECTOR_REFERENCES_.78
+.str.79
+_unnamed_cfstring_.80
+OBJC_METH_VAR_NAME_.81
+OBJC_SELECTOR_REFERENCES_.82
+OBJC_CLASSLIST_REFERENCES_$_.83
+OBJC_CLASSLIST_REFERENCES_$_.90
+.str.93
+_unnamed_cfstring_.94
+OBJC_METH_VAR_NAME_.99
+OBJC_SELECTOR_REFERENCES_.100
+OBJC_METH_VAR_NAME_.101
+OBJC_SELECTOR_REFERENCES_.102
+OBJC_METH_VAR_NAME_.113
+OBJC_SELECTOR_REFERENCES_.114
+OBJC_METH_VAR_NAME_.127
+OBJC_SELECTOR_REFERENCES_.128
+OBJC_METH_VAR_NAME_.135
+OBJC_SELECTOR_REFERENCES_.136
+OBJC_METH_VAR_NAME_.137
+OBJC_SELECTOR_REFERENCES_.138
+OBJC_SELECTOR_REFERENCES_.146
+OBJC_METH_VAR_NAME_.147
+OBJC_SELECTOR_REFERENCES_.148
+OBJC_METH_VAR_NAME_.149
+OBJC_SELECTOR_REFERENCES_.150
+OBJC_METH_VAR_NAME_.151
+OBJC_SELECTOR_REFERENCES_.152
+OBJC_METH_VAR_NAME_.153
+OBJC_SELECTOR_REFERENCES_.154
+OBJC_SELECTOR_REFERENCES_.156
+OBJC_METH_VAR_NAME_.157
+OBJC_SELECTOR_REFERENCES_.158
+OBJC_METH_VAR_NAME_.159
+OBJC_SELECTOR_REFERENCES_.160
+OBJC_CLASSLIST_REFERENCES_$_.161
+OBJC_SELECTOR_REFERENCES_.183
+OBJC_SELECTOR_REFERENCES_.185
+OBJC_SELECTOR_REFERENCES_.187
+OBJC_METH_VAR_NAME_.188
+OBJC_SELECTOR_REFERENCES_.189
+OBJC_SELECTOR_REFERENCES_.191
+OBJC_METH_VAR_NAME_.192
+OBJC_SELECTOR_REFERENCES_.193
+OBJC_SELECTOR_REFERENCES_.195
+OBJC_METH_VAR_NAME_.196
+OBJC_SELECTOR_REFERENCES_.197
+OBJC_METH_VAR_NAME_.198
+OBJC_SELECTOR_REFERENCES_.199
+OBJC_METH_VAR_NAME_.200
+OBJC_SELECTOR_REFERENCES_.201
+OBJC_METH_VAR_NAME_.202
+OBJC_SELECTOR_REFERENCES_.203
+OBJC_METH_VAR_NAME_.204
+OBJC_SELECTOR_REFERENCES_.205
+OBJC_METH_VAR_NAME_.206
+OBJC_SELECTOR_REFERENCES_.207
+OBJC_METH_VAR_NAME_.208
+OBJC_SELECTOR_REFERENCES_.209
+OBJC_METH_VAR_NAME_.210
+OBJC_SELECTOR_REFERENCES_.211
+OBJC_SELECTOR_REFERENCES_.213
+OBJC_SELECTOR_REFERENCES_.215
+.str.216
+_unnamed_cfstring_.217
+.str.218
+_unnamed_cfstring_.219
+OBJC_METH_VAR_NAME_.220
+OBJC_SELECTOR_REFERENCES_.221
+OBJC_METH_VAR_NAME_.222
+OBJC_SELECTOR_REFERENCES_.223
+OBJC_METH_VAR_NAME_.224
+OBJC_SELECTOR_REFERENCES_.225
+OBJC_METH_VAR_NAME_.226
+OBJC_SELECTOR_REFERENCES_.227
+OBJC_METH_VAR_NAME_.228
+OBJC_SELECTOR_REFERENCES_.229
+OBJC_METH_VAR_NAME_.230
+OBJC_METH_VAR_NAME_.231
+OBJC_METH_VAR_TYPE_.232
+OBJC_METH_VAR_NAME_.233
+OBJC_METH_VAR_NAME_.234
+OBJC_METH_VAR_NAME_.235
+OBJC_METH_VAR_TYPE_.236
+OBJC_METH_VAR_TYPE_.237
+OBJC_METH_VAR_TYPE_.238
+OBJC_METH_VAR_TYPE_.239
+l_OBJC_$_CATEGORY_INSTANCE_METHODS_UIColor_$_Chameleon
+OBJC_METH_VAR_TYPE_.240
+OBJC_METH_VAR_NAME_.241
+OBJC_METH_VAR_TYPE_.242
+OBJC_METH_VAR_TYPE_.243
+OBJC_METH_VAR_NAME_.244
+OBJC_METH_VAR_NAME_.245
+OBJC_METH_VAR_NAME_.246
+OBJC_METH_VAR_TYPE_.247
+OBJC_METH_VAR_TYPE_.248
+OBJC_METH_VAR_NAME_.249
+OBJC_METH_VAR_TYPE_.250
+OBJC_METH_VAR_NAME_.251
+OBJC_METH_VAR_TYPE_.252
+OBJC_METH_VAR_TYPE_.253
+OBJC_METH_VAR_NAME_.254
+OBJC_METH_VAR_NAME_.255
+OBJC_METH_VAR_NAME_.256
+OBJC_METH_VAR_TYPE_.257
+OBJC_METH_VAR_TYPE_.258
+OBJC_METH_VAR_TYPE_.259
+OBJC_METH_VAR_TYPE_.260
+l_OBJC_$_CATEGORY_CLASS_METHODS_UIColor_$_Chameleon
+OBJC_PROP_NAME_ATTR_.261
+l_OBJC_$_PROP_LIST_UIColor_$_Chameleon
+l_OBJC_$_CATEGORY_UIColor_$_Chameleon
+NSMakeRange
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSRange.h
++[UIColor(Chameleon) nearestFlatColorForL:A:B:alpha:]
+/Users/eb/Desktop/Chameleon/Pod/Classes/Objective-C/UIColor+Chameleon.m
++[UIColor(Chameleon) totalSumOfDifferencesFroml1:l2:a1:a2:b1:b2:]
+-[UIColor(Chameleon) isMonochromeOrRGB]
+-[UIColor(Chameleon) getRGBAComponents:]
+-[UIColor(Chameleon) RGBAValue]
++[UIColor(Chameleon) flatColors]
+-[UIColor(Chameleon) isEqualToColor:]
+-[UIColor(Chameleon) lightenByPercentage:]
+-[UIColor(Chameleon) hexValue]
+-[UIColor(Chameleon) darkenByPercentage:]
+-[UIColor(Chameleon) flatten]
++[UIColor(Chameleon) colorWithRandomFlatColorOfShadeStyle:withAlpha:]
++[UIColor(Chameleon) colorWithRandomFlatColorOfShadeStyle:]
++[UIColor(Chameleon) colorWithRandomFlatColorExcludingColorsInArray:]
++[UIColor(Chameleon) colorWithRandomColorInArray:]
++[UIColor(Chameleon) randomFlatColor]
++[UIColor(Chameleon) generateRandomNumberWithMax:]
++[UIColor(Chameleon) hexValueToUnsigned:]
++[UIColor(Chameleon) colorWithHexString:withAlpha:]
++[UIColor(Chameleon) colorWithHexString:]
++[UIColor(Chameleon) colorWithGradientStyle:withFrame:andColors:]
++[UIColor(Chameleon) colorWithContrastingBlackOrWhiteColorOn:isFlat:alpha:]
++[UIColor(Chameleon) colorWithContrastingBlackOrWhiteColorOn:isFlat:]
++[UIColor(Chameleon) colorWithFlatVersionOf:withAlpha:]
++[UIColor(Chameleon) colorWithFlatVersionFrom:]
++[UIColor(Chameleon) colorWithFlatVersionOf:]
++[UIColor(Chameleon) colorWithComplementaryFlatColorOf:withAlpha:]
++[UIColor(Chameleon) colorWithComplementaryFlatColorOf:]
++[UIColor(Chameleon) colorWithAverageColorFromImage:withAlpha:]
++[UIColor(Chameleon) colorWithAverageColorFromImage:]
++[UIColor(Chameleon) flatYellowColorDark]
++[UIColor(Chameleon) flatWhiteColorDark]
++[UIColor(Chameleon) flatWatermelonColorDark]
++[UIColor(Chameleon) flatTealColorDark]
++[UIColor(Chameleon) flatSkyBlueColorDark]
++[UIColor(Chameleon) flatSandColorDark]
++[UIColor(Chameleon) flatRedColorDark]
++[UIColor(Chameleon) flatPurpleColorDark]
++[UIColor(Chameleon) flatPowderBlueColorDark]
++[UIColor(Chameleon) flatPlumColorDark]
++[UIColor(Chameleon) flatPinkColorDark]
++[UIColor(Chameleon) flatOrangeColorDark]
++[UIColor(Chameleon) flatNavyBlueColorDark]
++[UIColor(Chameleon) flatMintColorDark]
++[UIColor(Chameleon) flatMaroonColorDark]
++[UIColor(Chameleon) flatMagentaColorDark]
++[UIColor(Chameleon) flatLimeColorDark]
++[UIColor(Chameleon) flatGreenColorDark]
++[UIColor(Chameleon) flatGrayColorDark]
++[UIColor(Chameleon) flatForestGreenColorDark]
++[UIColor(Chameleon) flatCoffeeColorDark]
++[UIColor(Chameleon) flatBrownColorDark]
++[UIColor(Chameleon) flatBlueColorDark]
++[UIColor(Chameleon) flatBlackColorDark]
++[UIColor(Chameleon) flatYellowColor]
++[UIColor(Chameleon) flatWhiteColor]
++[UIColor(Chameleon) flatWatermelonColor]
++[UIColor(Chameleon) flatTealColor]
++[UIColor(Chameleon) flatSkyBlueColor]
++[UIColor(Chameleon) flatSandColor]
++[UIColor(Chameleon) flatRedColor]
++[UIColor(Chameleon) flatPurpleColor]
++[UIColor(Chameleon) flatPowderBlueColor]
++[UIColor(Chameleon) flatPlumColor]
++[UIColor(Chameleon) flatPinkColor]
++[UIColor(Chameleon) flatOrangeColor]
++[UIColor(Chameleon) flatNavyBlueColor]
++[UIColor(Chameleon) flatMintColor]
++[UIColor(Chameleon) flatMaroonColor]
++[UIColor(Chameleon) flatMagentaColor]
++[UIColor(Chameleon) flatLimeColor]
++[UIColor(Chameleon) flatGreenColor]
++[UIColor(Chameleon) flatGrayColor]
++[UIColor(Chameleon) flatForestGreenColor]
++[UIColor(Chameleon) flatCoffeeColor]
++[UIColor(Chameleon) flatBrownColor]
++[UIColor(Chameleon) flatBlueColor]
++[UIColor(Chameleon) flatBlackColor]
++[UIColor(Chameleon) gradientImage]
++[UIColor(Chameleon) setGradientImage:]
+_TTSg5CSo7UIColor___TFVs12_ArrayBuffer13_asCocoaArrayfT_Ps16_NSArrayCoreType_
+L_selector_data(colorWithComplementaryFlatColorOf:)
+L_selector(colorWithComplementaryFlatColorOf:)
+L_selector_data(colorWithRandomFlatColorOfShadeStyle:)
+L_selector(colorWithRandomFlatColorOfShadeStyle:)
+L_selector_data(colorWithContrastingBlackOrWhiteColorOn:isFlat:)
+L_selector(colorWithContrastingBlackOrWhiteColorOn:isFlat:)
+_TMLPs9AnyObject_
+_PROTOCOL__TtPs9AnyObject_
+l_OBJC_LABEL_PROTOCOL_$__TtPs9AnyObject_
+l_OBJC_PROTOCOL_REFERENCE_$__TtPs9AnyObject_
+L_selector_data(colorWithGradientStyle:withFrame:andColors:)
+L_selector(colorWithGradientStyle:withFrame:andColors:)
+L_selector_data(colorWithHexString:withAlpha:)
+L_selector(colorWithHexString:withAlpha:)
+L_selector_data(colorWithAverageColorFromImage:)
+L_selector(colorWithAverageColorFromImage:)
+L_selector_data(arrayOfColorsWithColorScheme:usingColor:withFlatScheme:)
+L_selector(arrayOfColorsWithColorScheme:usingColor:withFlatScheme:)
+_TMLGSaCSo7UIColor_
+_TMLCSo7UIColor
+L_selector_data(arrayOfColorsFromImage:withFlatScheme:)
+L_selector(arrayOfColorsFromImage:withFlatScheme:)
+L_selector_data(randomFlatColor)
+L_selector(randomFlatColor)
+L_selector_data(clearColor)
+L_selector(clearColor)
+L_selector_data(flatBlackColor)
+L_selector(flatBlackColor)
+L_selector_data(flatBlueColor)
+L_selector(flatBlueColor)
+L_selector_data(flatBrownColor)
+L_selector(flatBrownColor)
+L_selector_data(flatCoffeeColor)
+L_selector(flatCoffeeColor)
+L_selector_data(flatForestGreenColor)
+L_selector(flatForestGreenColor)
+L_selector_data(flatGrayColor)
+L_selector(flatGrayColor)
+L_selector_data(flatGreenColor)
+L_selector(flatGreenColor)
+L_selector_data(flatLimeColor)
+L_selector(flatLimeColor)
+L_selector_data(flatMagentaColor)
+L_selector(flatMagentaColor)
+L_selector_data(flatMaroonColor)
+L_selector(flatMaroonColor)
+L_selector_data(flatMintColor)
+L_selector(flatMintColor)
+L_selector_data(flatNavyBlueColor)
+L_selector(flatNavyBlueColor)
+L_selector_data(flatOrangeColor)
+L_selector(flatOrangeColor)
+L_selector_data(flatPinkColor)
+L_selector(flatPinkColor)
+L_selector_data(flatPlumColor)
+L_selector(flatPlumColor)
+L_selector_data(flatPowderBlueColor)
+L_selector(flatPowderBlueColor)
+L_selector_data(flatPurpleColor)
+L_selector(flatPurpleColor)
+L_selector_data(flatRedColor)
+L_selector(flatRedColor)
+L_selector_data(flatSandColor)
+L_selector(flatSandColor)
+L_selector_data(flatSkyBlueColor)
+L_selector(flatSkyBlueColor)
+L_selector_data(flatTealColor)
+L_selector(flatTealColor)
+L_selector_data(flatWatermelonColor)
+L_selector(flatWatermelonColor)
+L_selector_data(flatWhiteColor)
+L_selector(flatWhiteColor)
+L_selector_data(flatYellowColor)
+L_selector(flatYellowColor)
+L_selector_data(flatBlackColorDark)
+L_selector(flatBlackColorDark)
+L_selector_data(flatBlueColorDark)
+L_selector(flatBlueColorDark)
+L_selector_data(flatBrownColorDark)
+L_selector(flatBrownColorDark)
+L_selector_data(flatCoffeeColorDark)
+L_selector(flatCoffeeColorDark)
+L_selector_data(flatForestGreenColorDark)
+L_selector(flatForestGreenColorDark)
+L_selector_data(flatGrayColorDark)
+L_selector(flatGrayColorDark)
+L_selector_data(flatGreenColorDark)
+L_selector(flatGreenColorDark)
+L_selector_data(flatLimeColorDark)
+L_selector(flatLimeColorDark)
+L_selector_data(flatMagentaColorDark)
+L_selector(flatMagentaColorDark)
+L_selector_data(flatMaroonColorDark)
+L_selector(flatMaroonColorDark)
+L_selector_data(flatMintColorDark)
+L_selector(flatMintColorDark)
+L_selector_data(flatNavyBlueColorDark)
+L_selector(flatNavyBlueColorDark)
+L_selector_data(flatOrangeColorDark)
+L_selector(flatOrangeColorDark)
+L_selector_data(flatPinkColorDark)
+L_selector(flatPinkColorDark)
+L_selector_data(flatPlumColorDark)
+L_selector(flatPlumColorDark)
+L_selector_data(flatPowderBlueColorDark)
+L_selector(flatPowderBlueColorDark)
+L_selector_data(flatPurpleColorDark)
+L_selector(flatPurpleColorDark)
+L_selector_data(flatRedColorDark)
+L_selector(flatRedColorDark)
+L_selector_data(flatSandColorDark)
+L_selector(flatSandColorDark)
+L_selector_data(flatSkyBlueColorDark)
+L_selector(flatSkyBlueColorDark)
+L_selector_data(flatTealColorDark)
+L_selector(flatTealColorDark)
+L_selector_data(flatWatermelonColorDark)
+L_selector(flatWatermelonColorDark)
+L_selector_data(flatWhiteColorDark)
+L_selector(flatWhiteColorDark)
+L_selector_data(flatYellowColorDark)
+L_selector(flatYellowColorDark)
+_swift_FORCE_LOAD_$_swiftUIKit_$_Chameleon
+_swift_FORCE_LOAD_$_swiftCoreImage_$_Chameleon
+_swift_FORCE_LOAD_$_swiftDarwin_$_Chameleon
+_swift_FORCE_LOAD_$_swiftCoreGraphics_$_Chameleon
+_swift_FORCE_LOAD_$_swiftDispatch_$_Chameleon
+_swift_FORCE_LOAD_$_swiftObjectiveC_$_Chameleon
+_swift_FORCE_LOAD_$_swiftFoundation_$_Chameleon
+-emit-bc -primary-file /Users/eb/Desktop/Chameleon/Pod/Classes/Swift/ChameleonShorthand.swift -target arm64-apple-ios8.0 -Xllvm -aarch64-use-tbi -enable-objc-interop -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk -I /Users/eb/Library/Developer/Xcode/DerivedData/Chameleon-givlkrqmoltpppgzhinkwohwjkcv/Build/Products/Release-iphoneos -F /Users/eb/Library/Developer/Xcode/DerivedData/Chameleon-givlkrqmoltpppgzhinkwohwjkcv/Build/Products/Release-iphoneos -g -import-underlying-module -module-cache-path /Users/eb/Library/Developer/Xcode/DerivedData/ModuleCache -serialize-debugging-options -Xcc -I/Users/eb/Library/Developer/Xcode/DerivedData/Chameleon-givlkrqmoltpppgzhinkwohwjkcv/Build/Intermediates/Chameleon.build/Release-iphoneos/Chameleon.build/swift-overrides.hmap -Xcc -iquote -Xcc /Users/eb/Library/Developer/Xcode/DerivedData/Chameleon-givlkrqmoltpppgzhinkwohwjkcv/Build/Intermediates/Chameleon.build/Release-iphoneos/Chameleon.build/Chameleon-generated-files.hmap -Xcc -I/Users/eb/Library/Developer/Xcode/DerivedData/Chameleon-givlkrqmoltpppgzhinkwohwjkcv/Build/Intermediates/Chameleon.build/Release-iphoneos/Chameleon.build/Chameleon-own-target-headers.hmap -Xcc -I/Users/eb/Library/Developer/Xcode/DerivedData/Chameleon-givlkrqmoltpppgzhinkwohwjkcv/Build/Intermediates/Chameleon.build/Release-iphoneos/Chameleon.build/Chameleon-all-non-framework-target-headers.hmap -Xcc -ivfsoverlay -Xcc /Users/eb/Library/Developer/Xcode/DerivedData/Chameleon-givlkrqmoltpppgzhinkwohwjkcv/Build/Intermediates/Chameleon.build/all-product-headers.yaml -Xcc -iquote -Xcc /Users/eb/Library/Developer/Xcode/DerivedData/Chameleon-givlkrqmoltpppgzhinkwohwjkcv/Build/Intermediates/Chameleon.build/Release-iphoneos/Chameleon.build/Chameleon-project-headers.hmap -Xcc -I/Users/eb/Library/Developer/Xcode/DerivedData/Chameleon-givlkrqmoltpppgzhinkwohwjkcv/Build/Products/Release-iphoneos/include -Xcc -I/Users/eb/Library/Developer/Xcode/DerivedData/Chameleon-givlkrqmoltpppgzhinkwohwjkcv/Build/Intermediates/Chameleon.build/Release-iphoneos/Chameleon.build/DerivedSources/arm64 -Xcc -I/Users/eb/Library/Developer/Xcode/DerivedData/Chameleon-givlkrqmoltpppgzhinkwohwjkcv/Build/Intermediates/Chameleon.build/Release-iphoneos/Chameleon.build/DerivedSources -Xcc -ivfsoverlay -Xcc /Users/eb/Library/Developer/Xcode/DerivedData/Chameleon-givlkrqmoltpppgzhinkwohwjkcv/Build/Intermediates/Chameleon.build/Release-iphoneos/Chameleon.build/unextended-module-overlay.yaml -Xcc -working-directory/Users/eb/Desktop/Chameleon -emit-module-doc-path /Users/eb/Library/Developer/Xcode/DerivedData/Chameleon-givlkrqmoltpppgzhinkwohwjkcv/Build/Intermediates/Chameleon.build/Release-iphoneos/Chameleon.build/Objects-normal/arm64/ChameleonShorthand~partial.swiftdoc -O -parse-as-library -module-name Chameleon -emit-module-path /Users/eb/Library/Developer/Xcode/DerivedData/Chameleon-givlkrqmoltpppgzhinkwohwjkcv/Build/Intermediates/Chameleon.build/Release-iphoneos/Chameleon.build/Objects-normal/arm64/ChameleonShorthand~partial.swiftmodule -serialize-diagnostics-path /Users/eb/Library/Developer/Xcode/DerivedData/Chameleon-givlkrqmoltpppgzhinkwohwjkcv/Build/Intermediates/Chameleon.build/Release-iphoneos/Chameleon.build/Objects-normal/arm64/ChameleonShorthand.dia -emit-dependencies-path /Users/eb/Library/Developer/Xcode/DerivedData/Chameleon-givlkrqmoltpppgzhinkwohwjkcv/Build/Intermediates/Chameleon.build/Release-iphoneos/Chameleon.build/Objects-normal/arm64/ChameleonShorthand.d -o /Users/eb/Library/Developer/Xcode/DerivedData/Chameleon-givlkrqmoltpppgzhinkwohwjkcv/Build/Intermediates/Chameleon.build/Release-iphoneos/Chameleon.build/Objects-normal/arm64/ChameleonShorthand.bc -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift
+<swift-imported-modules>
+Apple Swift version 2.2 (swiftlang-703.0.18.1 clang-703.0.29)
+__swift_memmove_array4_4
+ChameleonShorthand.swift
+/Users/eb/Desktop/Chameleon/Pod/Classes/Swift
+__swift_memcpy_array4_4
+__swift_memcpy4_4
+_TTSg5CSo7UIColor___TFVs22_ContiguousArrayBufferg8_storageCs27_ContiguousArrayStorageBase
+_TTSg5CSo7UIColor___TFVs22_ContiguousArrayBufferg5countSi
+_TTSg5Vs10_ArrayBody_CSo7UIColor___TFVs20ManagedBufferPointerg13_valuePointerGSpx_
+__swift_memmove_array16_8
+__swift_memcpy_array16_8
+__swift_noop_self_return
+__swift_memcpy16_8
+__swift_noop_void_return
+_TTSg5Vs10_ArrayBody_CSo7UIColor___TZFVs20ManagedBufferPointerg12_valueOffsetSi
+_TTSg5Vs10_ArrayBody_CSo7UIColor___TFVs20ManagedBufferPointerg8_addressGSPVs5UInt8_
+_TTSg5CSo7UIColor___TFVs12_ArrayBufferg9_isNativeSb
+_TTSg5CSo7UIColor___TFVs12_ArrayBufferg10_nonNativePs16_NSArrayCoreType_
+_TTSg5CSo7UIColor___TFVs22_ContiguousArrayBuffer13_asCocoaArrayfT_Ps16_NSArrayCoreType_
+_TWturGVs22_ContiguousArrayBufferx_s9Indexables8_Element
+_TWturGSax_s9Indexables8_Element
+FlatYellowDark
+FlatWhiteDark
+FlatWatermelonDark
+FlatTealDark
+FlatSkyBlueDark
+FlatSandDark
+FlatRedDark
+FlatPurpleDark
+FlatPowderBlueDark
+FlatPlumDark
+FlatPinkDark
+FlatOrangeDark
+FlatNavyBlueDark
+FlatMintDark
+FlatMaroonDark
+FlatMagentaDark
+FlatLimeDark
+FlatGreenDark
+FlatGrayDark
+FlatForestGreenDark
+FlatCoffeeDark
+FlatBrownDark
+FlatBlueDark
+FlatBlackDark
+FlatYellow
+FlatWhite
+FlatWatermelon
+FlatTeal
+FlatSkyBlue
+FlatSand
+FlatRed
+FlatPurple
+FlatPowderBlue
+FlatPlum
+FlatPink
+FlatOrange
+FlatNavyBlue
+FlatMint
+FlatMaroon
+FlatMagenta
+FlatLime
+FlatGreen
+FlatGray
+FlatForestGreen
+FlatCoffee
+FlatBrown
+FlatBlue
+FlatBlack
+ClearColor
+RandomFlatColor
+init
+ColorsFromImage
+_TMaCSo7UIColor
+_TMaGSaCSo7UIColor_
+_TTSg5GSaCSo7UIColor_GSaS__s21_ObjectiveCBridgeable10Foundation_CSo7NSArrayCSo8NSObjects9AnyObject10ObjectiveC___forceBridgeFromObjectiveC_bridgeable
+ColorSchemeOf
+AverageColorFromImage
+HexColor
+_TIF9Chameleon8HexColorFTSSV12CoreGraphics7CGFloat_CSo7UIColorA0_
+_TTSg5Ps9AnyObject____TFVs12_ArrayBufferCfT7storageGVs14_BridgeStorageCs27_ContiguousArrayStorageBasePs16_NSArrayCoreType___GS_x_
+_TTSg5CSo7UIColor___TFVs22_ContiguousArrayBufferCfCs27_ContiguousArrayStorageBaseGS_x_
+_TMaPs9AnyObject_
+_TTSg5Ps9AnyObject____TFSaCfGVs12_ArrayBufferx_GSax_
+_TTSg5Ps9AnyObject____TFSaCfT20_immutableCocoaArrayPs16_NSArrayCoreType__GSax_
+_TTSg5CSo7UIColor___TFVs12_ArrayBuffer19requestNativeBufferfT_GSqGVs22_ContiguousArrayBufferx__
+_TFCs27_ContiguousArrayStorageBaseg17staticElementTypePMP_
+_TTSg5Ps9AnyObject____TFVs12_ArrayBufferCfT7nsArrayPs16_NSArrayCoreType__GS_x_
+_TTSg5CSo7UIColor_Ps9AnyObject____TFVs12_ArrayBuffer14castToBufferOfurfMqd__GS_qd___
+_TTSg5CSo7UIColor_Ps9AnyObject____TFVs12_ArrayBuffer39downcastToBufferWithDeferredTypeCheckOfurfMqd__GS_qd___
+_TTSg5CSo7UIColor_Ps9AnyObject____TFs15_arrayForceCastu0_rFGSax_GSaq__
+_TTSg5CSo7UIColor_Ps9AnyObject____TFVs22_ContiguousArrayBuffer24storesOnlyElementsOfTypeurfMqd__Sb
+_TTSg5CSo7UIColor___TFVs12_ArrayBufferg7_nativeGVs22_ContiguousArrayBufferx_
+GradientColor
+ContrastColorOf
+RandomFlatColorWithShade
+ComplementaryFlatColorOf
+/Users/eb/Desktop/Chameleon/Pod/Classes/Swift/ChameleonShorthand.swift
+/Users/eb/Library/Developer/Xcode/DerivedData/Chameleon-givlkrqmoltpppgzhinkwohwjkcv/Build/Intermediates/Chameleon.build/Release-iphoneos/Chameleon.build/DerivedSources/Chameleon_vers.c
+_ZL15__ARCLite__loadv
+_ZL58__arclite_NSMutableDictionary__setObject_forKeyedSubscriptP19NSMutableDictionaryP13objc_selectorP11objc_objectS4_
+_ZL22add_image_hook_swiftV1PK11mach_headerl
+_ZL42__arclite_NSUndoManagerProxy_isKindOfClassP11objc_objectP13objc_selectorP10objc_class
+_ZL13replaceMethodP10objc_classP13objc_selectorPFP11objc_objectS4_S2_zEPS6_
+_ZL30__arclite_NSManagedObject_initP11objc_objectP13objc_selector
+_ZL41__arclite_NSManagedObject_allocWithEntityP11objc_objectP13objc_selectorS0_
+_ZL36__arclite_NSManagedObject_allocBatchP11objc_objectP13objc_selectorPS0_S0_j
+_ZL37__arclite_NSKKMS_fastIndexForKnownKeyP11objc_objectP13objc_selectorS0_
+_ZL28__arclite_NSKKMS_indexForKeyP11objc_objectP13objc_selectorS0_
+_ZL29__arclite_NSKKsD_objectForKeyP11objc_objectP13objc_selectorS0_
+_ZL35__arclite_NSKKsD_removeObjectForKeyP11objc_objectP13objc_selectorS0_
+_ZL33__arclite_NSKKsD_setObject_forKeyP11objc_objectP13objc_selectorS0_S0_
+_ZL41__arclite_NSKKsD_addEntriesFromDictionaryP11objc_objectP13objc_selectorP12NSDictionary
+_ZL28__arclite_objc_readClassPairP10objc_classPK15objc_image_info
+_ZL32__arclite_objc_allocateClassPairP10objc_classPKcm
+_ZL32__arclite_object_getIndexedIvarsP11objc_object
+_ZL23__arclite_objc_getClassPKc
+_ZL27__arclite_objc_getMetaClassPKc
+_ZL31__arclite_objc_getRequiredClassPKc
+_ZL26__arclite_objc_lookUpClassPKc
+_ZL26__arclite_objc_getProtocolPKc
+_ZL23__arclite_class_getNameP10objc_class
+_ZL26__arclite_protocol_getNameP8Protocol
+_ZL37__arclite_objc_copyClassNamesForImagePKcPj
+_ZL17transcribeMethodsP10objc_classP15glue_class_ro_t
+_ZL19transcribeProtocolsP10objc_classP15glue_class_ro_t
+_ZL20transcribePropertiesP10objc_classP15glue_class_ro_t
+_ZL14initialize_impP11objc_objectP13objc_selector
+_ZL18allocateMaybeSwiftP18glue_swift_class_tm
+_ZL22copySwiftV1MangledNamePKcb
+_ZL13demangledNamePKcb
+_ZL16scanMangledFieldRPKcS0_S1_Ri
+_ZL30arclite_uninitialized_functionv
+_ZL12cxxConstructP11objc_object
+_ZL20fixStringForCoreDataP11objc_object
+OBJC_METACLASS_$___ARCLite__
+_ZL24OBJC_CLASS_$___ARCLite__
+_ZL31OBJC_METACLASS_RO_$___ARCLite__
+_non_lazy_classes
+_ZL27OBJC_CLASS_RO_$___ARCLite__
+_ZL11_class_name
+_ZL32OBJC_$_CLASS_METHODS___ARCLite__
+_ZL17_load_method_name
+_ZL17_load_method_type
+OBJC_METH_VAR_TYPE_.6
+l_OBJC_$_PROTOCOL_INSTANCE_METHODS___ARCLiteKeyedSubscripting__
+l_OBJC_$_PROTOCOL_METHOD_TYPES___ARCLiteKeyedSubscripting__
+l_OBJC_PROTOCOL_$___ARCLiteKeyedSubscripting__
+l_OBJC_LABEL_PROTOCOL_$___ARCLiteKeyedSubscripting__
+l_OBJC_PROTOCOL_REFERENCE_$___ARCLiteKeyedSubscripting__
+.str.7
+.str.8
+_ZL30NSUndoManagerProxy_targetClass
+.str.11
+.str.12
+_ZL29original_NSManagedObject_init
+_ZL40original_NSManagedObject_allocWithEntity
+_ZL35original_NSManagedObject_allocBatch
+_ZL25NSMutableDictionary_class
+.str.19
+_ZL22NSConstantString_class
+.str.20
+_ZL14NSString_class
+.str.21
+_ZL36original_NSKKMS_fastIndexForKnownKey
+_ZL27original_NSKKMS_indexForKey
+.str.26
+_ZL28original_NSKKsD_objectForKey
+_ZL34original_NSKKsD_removeObjectForKey
+_ZL32original_NSKKsD_setObject_forKey
+_ZL40original_NSKKsD_addEntriesFromDictionary
+_ZZL22add_image_hook_swiftV1PK11mach_headerlE7patches
+_ZGVZL22add_image_hook_swiftV1PK11mach_headerlE7patches
+.str.31
+.str.32
+_ZL31original_objc_allocateClassPair
+.str.33
+_ZL31original_object_getIndexedIvars
+.str.34
+_ZL22original_objc_getClass
+.str.35
+_ZL26original_objc_getMetaClass
+.str.36
+_ZL30original_objc_getRequiredClass
+.str.37
+_ZL25original_objc_lookUpClass
+.str.38
+_ZL25original_objc_getProtocol
+.str.39
+_ZL22original_class_getName
+.str.40
+_ZL25original_protocol_getName
+.str.41
+_ZL36original_objc_copyClassNamesForImage
+.str.46
+.str.47
+.str.48
+.str.49
+.str.50
+.str.51
+.str.52
+.str.53
+_ZL12demangleLock
+_ZL9Demangled
+.str.54
+.str.55
+.str.56
+.str.57
+Apple LLVM version 7.3.0 (clang-703.0.21)
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -Wno-trigraphs -fno-exceptions -fno-rtti -mpascal-strings -Os -Wno-missing-field-initializers -Wmissing-prototypes -Wno-implicit-atomic-properties -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -D NDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.Internal.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -miphoneos-version-min=4.3 -g -fno-threadsafe-statics -Wno-sign-conversion -fembed-bitcode -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~248/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-generated-files.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~248/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-own-target-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~248/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-all-target-headers.hmap -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~248/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-project-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~248/Symbols/BuiltProducts/include -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~248/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources/arm64 -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~248/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources -F/Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~248/Symbols/BuiltProducts -F/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.Internal.sdk/System/Library/PrivateFrameworks -Wall -Wextra -Wno-gcc-compat -fgnu-inline-asm -MMD -MT dependencies -MF /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~248/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/arm64/arclite.d --serialize-diagnostics /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~248/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/arm64/arclite.dia -c /Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-65/source/arclite.mm -o /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/arclite_iOS-65~248/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/arm64/arclite.o -mlinker-version=264.3
+__arclite_NSKKsD_addEntriesFromDictionary
+/Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-65/source/arclite.mm
+/Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-65
+__arclite_NSKKsD_setObject_forKey
+__arclite_NSKKsD_removeObjectForKey
+__arclite_NSKKsD_objectForKey
+__arclite_NSKKMS_indexForKey
+fixStringForCoreData
+__arclite_NSKKMS_fastIndexForKnownKey
+__arclite_NSManagedObject_allocBatch
+__arclite_NSManagedObject_allocWithEntity
+cxxConstruct
+__arclite_NSManagedObject_init
+arclite_uninitialized_function
+replaceMethod
+__arclite_NSUndoManagerProxy_isKindOfClass
+patch_lazy_pointers
+patch_t<const char **(const char *, unsigned int *)>
+__arclite_objc_copyClassNamesForImage
+patch_t<const char *(Protocol *)>
+__arclite_protocol_getName
+patch_t<const char *(Class)>
+__isctype
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.Internal.sdk/usr/include/ctype.h
+isdigit
+scanMangledField
+copySwiftV1DemangledName
+demangledName
+__arclite_class_getName
+patch_t<Protocol *(const char *)>
+__arclite_objc_getProtocol
+__arclite_objc_lookUpClass
+__arclite_objc_getRequiredClass
+__arclite_objc_getMetaClass
+patch_t<Class (const char *)>
+copySwiftV1MangledName
+__arclite_objc_getClass
+patch_t<void *(id)>
+word_align
+__arclite_object_getIndexedIvars
+patch_t<Class (Class, const char *, unsigned long)>
+allocateMaybeSwift
+isSwift
+metaclass
+__arclite_objc_allocateClassPair
+patch_t<Class (Class, const objc_image_info *)>
+initialize_imp
+property_list_nth
+transcribeProperties
+transcribeProtocols
+method_list_nth
+transcribeMethods
+alignment
+max
+ivar_list_nth
+transcribeIvars
+fastFlags
+data
+ro
+__arclite_objc_readClassPair
+add_image_hook_swiftV1
+install_swiftV1
+install_ARC
+objc_collectingEnabled
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.Internal.sdk/usr/include/objc/objc-auto.h
+keyedGetter
+__arclite_NSMutableDictionary__setObject_forKeyedSubscript
+addOrReplaceMethod
+install_dict_nil_value
+install_subscripting
+install_autoreleasepool
+__ARCLite__load

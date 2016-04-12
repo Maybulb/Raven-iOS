@@ -15,6 +15,7 @@
 		03A67C721CBC8193009533AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03A67C701CBC8193009533AF /* LaunchScreen.storyboard */; };
 		03A67C7D1CBC8193009533AF /* RavenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A67C7C1CBC8193009533AF /* RavenTests.swift */; };
 		03A67C881CBC8193009533AF /* RavenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A67C871CBC8193009533AF /* RavenUITests.swift */; };
+		03A67C961CBC8222009533AF /* Chameleon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03A67C951CBC8222009533AF /* Chameleon.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		03A67C831CBC8193009533AF /* RavenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RavenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		03A67C871CBC8193009533AF /* RavenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RavenUITests.swift; sourceTree = "<group>"; };
 		03A67C891CBC8193009533AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03A67C951CBC8222009533AF /* Chameleon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Chameleon.framework; path = Carthage/Build/iOS/Chameleon.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03A67C961CBC8222009533AF /* Chameleon.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +82,7 @@
 		03A67C591CBC8192009533AF = {
 			isa = PBXGroup;
 			children = (
+				03A67C951CBC8222009533AF /* Chameleon.framework */,
 				03A67C641CBC8193009533AF /* Raven */,
 				03A67C7B1CBC8193009533AF /* RavenTests */,
 				03A67C861CBC8193009533AF /* RavenUITests */,
@@ -138,6 +142,7 @@
 				03A67C5E1CBC8192009533AF /* Sources */,
 				03A67C5F1CBC8192009533AF /* Frameworks */,
 				03A67C601CBC8192009533AF /* Resources */,
+				03A67C971CBC822C009533AF /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -253,6 +258,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03A67C971CBC822C009533AF /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Chameleon.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		03A67C5E1CBC8192009533AF /* Sources */ = {
@@ -403,6 +425,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Raven/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bright.Raven;
@@ -414,6 +440,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Raven/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bright.Raven;
