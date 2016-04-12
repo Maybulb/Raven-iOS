@@ -7,7 +7,7 @@ A minimalistic poetry app for iOS.
 
 ## Development
 
-Clone, install dependencies ([Carthage](https://github.com/Carthage/Carthage), open Xcode, and run.
+Clone, install dependencies ([Carthage](https://github.com/Carthage/Carthage)), open Xcode, and run.
 
 ```bash
 git clone https://github.com/RavenPoetry/Raven
